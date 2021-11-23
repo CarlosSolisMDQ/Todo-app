@@ -1,16 +1,18 @@
-export const TASK = [
+import {Task} from "./Task";
+
+export const TASK: Task[] = [
     {
         id: 1,
         text: "comprar comida",
         day: "agosto 5 a las 12:00",
         reminder: true
-    }
+    },
     {
         id: 2,
         text: "comprar gaseosas",
         day: "octubre 2 a las 06:00",
         reminder: false
-    }
+    },
     {
         id: 3,
         text: "comprar nafta",
