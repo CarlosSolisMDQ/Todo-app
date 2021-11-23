@@ -4,3 +4,30 @@
     border: 2px solid blue;
     border-radius: 5px;
 }
+
+.btn {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    transform: scale(0.90);
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
