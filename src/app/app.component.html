@@ -2,6 +2,15 @@
 
 <app-header></app-header>
 
-<app-tasks></app-tasks>
+<router-outlet></router-outlet>
+
+<!-- algo que no aparece en el video es la explicacion de por qué hay que borrar las 
+etiquedas de los componentes. (al principio no lo hice y la ui era un quilombo)
+la cosa es que ahroa la visualizacion de esos componentes lo va a manejar el router.
+Vos pones la "etiqueta" directiva del router y de ahí manejas el renderizado por rutas 
+
+por eso sacamos el app-tasks-->
+
+<app-footer></app-footer>
 
 </div>
