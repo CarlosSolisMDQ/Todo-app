@@ -30,7 +30,8 @@ const appRoutes: Routes = [
     TasksComponent,
     TaskItemComponent,
     AddTaskComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
